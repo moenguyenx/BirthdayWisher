@@ -18,7 +18,7 @@ now = dt.datetime.now()
 today = f"{now.day}-{now.month}"
 
 # Select a random letter template
-letter_path = f"letter_templates/letter_{random.randint(1,3)}.txt"
+letter_path = f"letter_templates/letter_{random.randint(1,5)}.txt"
 happy_fr = None
 
 # Find the friend with a birthday today
