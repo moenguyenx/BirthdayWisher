@@ -46,3 +46,14 @@ You can have a small Linux server and set up cron job to run daily.
     ```
 
 4. **Hit run haha or you can setup cronjob on Linux to run the script daily**
+   - Open Cron table
+     ```bash
+     crontab -e
+     ```
+   - Add a new Cronjob
+     ```bash
+     0 0 * * * /usr/bin/python3 /path/to/your/script.py
+     ```
+And voila, your Cronjob has been scheduled to run daily at 0AM :) Have fun
+   
+     
